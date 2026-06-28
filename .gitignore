@@ -1,5 +1,6 @@
 *.pyc
 .DS_Store
+CLAUDE.md
 .coverage*
 cmake-build-debug
 setup.py
