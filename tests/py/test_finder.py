@@ -17,3 +17,8 @@ def test_find_returns_list():
     finder = Finder()
     result = finder.find("NaCl-3D-88c8e156db1b0fd9")
     assert isinstance(result, list)
+
+
+def test_finder_importable_from_graph_id():
+    from graph_id import Finder
+    assert Finder is not None
