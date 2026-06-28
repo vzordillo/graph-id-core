@@ -26,6 +26,8 @@ python = ">=3.11,<3.14"
 pymatgen = ">=2025.10.7"
 scikit-learn = ">=0.24.1"
 ase = "^3.27.0"
+orjson = ">=3.10"
+huggingface-hub = ">=0.35.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.1.1"
