@@ -1,6 +1,7 @@
 *.pyc
 .DS_Store
 CLAUDE.md
+docs/superpowers/
 .coverage*
 cmake-build-debug
 setup.py
